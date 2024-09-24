@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess My Number!</h1>
+        <p>🎉 I’m thinking of a number between <span id="min">1</span> and <span id="max">20</span> 🎉</p>
+        <div class="guess">
+            <input type="number" id="guessField" class="guessField" placeholder="Enter a number">
+            <button class="guessSubmit">Submit guess</button>
+        </div>
+        <div class="result">
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+        <button class="playAgain" style="display: none;">Play Again</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
